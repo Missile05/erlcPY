@@ -6,8 +6,12 @@ First you need to install the package.
 
 `pip install erlcPY`
 
-### Getting started
+### Setup
+Setup is easy:
+
+```python
 WORKING PROGRESS
+```
 
 ### [PRC API Docs](https://apidocs.policeroleplay.community/reference/api-reference)
 
