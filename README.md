@@ -12,4 +12,4 @@ WORKING PROGRESS
 
 ### Credits
 Collaborator - [Missile05](https://discord.com/users/591298352344334388)
-Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
+Documentation Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
