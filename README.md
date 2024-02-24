@@ -4,7 +4,7 @@ A Python API wrapper for the ER:LC API.
 ## Installation
 First you need to install the package.
 
-`pip install erlcPY`
+`pip install erlcpy`
 
 ### Setup
 Setup is easy:
