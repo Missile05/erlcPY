@@ -3,7 +3,8 @@ A Python API wrapper for the ER:LC API.
 
 ## Installation
 First you need to install the package.
-`WORKING PROGRESS`
+
+`pip install erlcPY`
 
 ### Getting started
 WORKING PROGRESS
