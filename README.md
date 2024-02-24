@@ -18,7 +18,7 @@ Now you can start using the API - here are a few examples:
 WORKING PROGRESS
 ```
 
-### [PRC API Docs](https://apidocs.policeroleplay.community/reference/api-reference)
+### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
 
 ### Credits
 Collaborator - [Missile05](https://discord.com/users/591298352344334388)
