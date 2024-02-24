@@ -12,6 +12,11 @@ Setup is easy:
 ```python
 WORKING PROGRESS
 ```
+Now you can start using the API - here are a few examples:
+
+```python
+WORKING PROGRESS
+```
 
 ### [PRC API Docs](https://apidocs.policeroleplay.community/reference/api-reference)
 
