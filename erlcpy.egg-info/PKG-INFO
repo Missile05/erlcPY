@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: erlcpy
+Version: 1.0.0
+Summary: The First ERLC Python Wrapper
+Home-page: https://github.com/Arimuon/ErlcPY
+Author: Missile / Arimuon
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: requests
