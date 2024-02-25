@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+erlcpy/__init__.py
+erlcpy/main.py
+erlcpy.egg-info/PKG-INFO
+erlcpy.egg-info/SOURCES.txt
+erlcpy.egg-info/dependency_links.txt
+erlcpy.egg-info/requires.txt
+erlcpy.egg-info/top_level.txt
