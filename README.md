@@ -44,7 +44,7 @@ except Exception as e:
 ```
 
 ### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
-### [erlcPY PyPi Package](https://pypi.org/project/erlcpy/)
+### [erlcpy PyPi Package](https://pypi.org/project/erlcpy/)
 
 ### Credits
 Documentation Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
