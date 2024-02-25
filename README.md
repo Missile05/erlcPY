@@ -47,10 +47,10 @@ except Exception as e:
 ### [erlcpy PyPi Package](https://pypi.org/project/erlcpy/)
 
 ### Credits
-Documentation Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
-
 Project Lead - [Arimuon](https://discord.com/users/1148923243097497600)
 
 Head Developer - [Missile05](https://discord.com/users/591298352344334388)
 
 Collaborator - [Yodmin](https://discord.com/users/430480677058772992)
+
+Documentation Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
