@@ -19,7 +19,7 @@ CODE EXAMPLES IN WORKING PROGRESS
 ```
 
 ### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
-### [Our PyPi Package](https://pypi.org/project/erlcpy/1.0.0/)
+### [Our PyPi Package](https://pypi.org/project/erlcpy/)
 
 ### Credits
 Collaborator - [Missile05](https://discord.com/users/591298352344334388)
