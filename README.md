@@ -23,7 +23,7 @@ server_key = "your-server-key"
 server = ServerAPI(base_url, global_api_key, server_key)
 ```
 
-Now you can start using the API - here are a few examples:
+Now you can start using the API - here are a example:
 
 ```python
 from erlcpy import ServerAPI
