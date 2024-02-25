@@ -10,16 +10,43 @@ First you need to install the package.
 Setup is easy:
 
 ```python
-CODE EXAMPLES IN WORKING PROGRESS
+# Main.py
+
+from erlcpy import ServerAPI
+
+# Define your API credentials
+base_url = "https://api.policeroleplay.community/v1"
+global_api_key = "your-global-api-key"
+server_key = "your-server-key"
+
+# Create an instance of ServerAPI with your credentials
+server = ServerAPI(base_url, global_api_key, server_key)
 ```
+
 Now you can start using the API - here are a few examples:
 
 ```python
-CODE EXAMPLES IN WORKING PROGRESS
+from erlcpy import ServerAPI
+
+# Define your API credentials
+base_url = "https://api.policeroleplay.community/v1"
+global_api_key = "your-global-api-key"
+server_key = "your-server-key"
+
+# Create an instance of ServerAPI with your credentials
+server = ServerAPI(base_url, global_api_key, server_key)
+
+try:
+    # Get server information
+    server_info = server.get_server_info()
+    print("Server Information:", server_info)
+
+except Exception as e:
+    print("An error occurred:", e)
 ```
 
 ### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
-### [Our PyPi Package](https://pypi.org/project/erlcpy/)
+### [PyPi Package](https://pypi.org/project/erlcpy/)
 
 ### Credits
 Collaborator - [Missile05](https://discord.com/users/591298352344334388)
