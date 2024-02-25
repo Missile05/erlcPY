@@ -10,8 +10,6 @@ First you need to install the package.
 Setup is easy:
 
 ```python
-# Main.py
-
 from erlcpy import ServerAPI
 
 # Define your API credentials
