@@ -10,12 +10,12 @@ First you need to install the package.
 Setup is easy:
 
 ```python
-WORKING PROGRESS
+CODE EXAMPLES IN WORKING PROGRESS
 ```
 Now you can start using the API - here are a few examples:
 
 ```python
-WORKING PROGRESS
+CODE EXAMPLES IN WORKING PROGRESS
 ```
 
 ### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
