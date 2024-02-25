@@ -1,5 +1,4 @@
 import requests
-import types
 
 class ServerAPI:
     def __init__(self, base_url, global_api_key, server_key):
@@ -9,54 +8,53 @@ class ServerAPI:
             'Server-Key': server_key
         }
 
-    def _make_request(self, method, endpoint, data=None):
+    def _make_get_request(self, endpoint):
         url = f"{self.base_url}/{endpoint}"
-        response = None
-        if method == 'GET':
-            response = requests.get(url, headers=self.headers)
-        elif method == 'POST':
-            response = requests.post(url, json=data, headers=self.headers)
-        if response.status_code == 200:
-            return response.json()
-        else:
-            raise Exception(f"Error {response.status_code}: {response.text}")
+        response = requests.get(url, headers=self.headers)
+        response.raise_for_status()  # Raise exception for non-200 status codes
+        return response.json()
+
+    def _make_post_request(self, endpoint, data):
+        url = f"{self.base_url}/{endpoint}"
+        response = requests.post(url, json=data, headers=self.headers)
+        response.raise_for_status()  # Raise exception for non-200 status codes
+        return response.json()
 
 # Define the methods outside of the class
 def get_server_info(self):
-    return self._make_request('GET', '/server')
+    return self._make_get_request('server')
 
 def get_players(self):
-    return self._make_request('GET', '/server/players')
+    return self._make_get_request('server/players')
 
 def get_join_logs(self):
-    return self._make_request('GET', '/server/joinlogs')
+    return self._make_get_request('server/joinlogs')
 
 def get_queue(self):
-    return self._make_request('GET', '/server/queue')
+    return self._make_get_request('server/queue')
 
 def get_kill_logs(self):
-    return self._make_request('GET', '/server/killlogs')
+    return self._make_get_request('server/killlogs')
 
 def get_command_logs(self):
-    return self._make_request('GET', '/server/commandlogs')
+    return self._make_get_request('server/commandlogs')
 
 def get_mod_calls(self):
-    return self._make_request('GET', '/server/modcalls')
+    return self._make_get_request('server/modcalls')
 
 def get_bans(self):
-    return self._make_request('GET', '/server/bans')
+    return self._make_get_request('server/bans')
 
 def send_command(self, command):
-    data = {'command': command}
-    return self._make_request('POST', '/server/command', data)
+    return self._make_post_request('server/command', {'command': command})
 
 # Bind the methods to the class
-ServerAPI.get_server_info = types.MethodType(get_server_info, ServerAPI)
-ServerAPI.get_players = types.MethodType(get_players, ServerAPI)
-ServerAPI.get_join_logs = types.MethodType(get_join_logs, ServerAPI)
-ServerAPI.get_queue = types.MethodType(get_queue, ServerAPI)
-ServerAPI.get_kill_logs = types.MethodType(get_kill_logs, ServerAPI)
-ServerAPI.get_command_logs = types.MethodType(get_command_logs, ServerAPI)
-ServerAPI.get_mod_calls = types.MethodType(get_mod_calls, ServerAPI)
-ServerAPI.get_bans = types.MethodType(get_bans, ServerAPI)
-ServerAPI.send_command = types.MethodType(send_command, ServerAPI)
+ServerAPI.get_server_info = get_server_info
+ServerAPI.get_players = get_players
+ServerAPI.get_join_logs = get_join_logs
+ServerAPI.get_queue = get_queue
+ServerAPI.get_kill_logs = get_kill_logs
+ServerAPI.get_command_logs = get_command_logs
+ServerAPI.get_mod_calls = get_mod_calls
+ServerAPI.get_bans = get_bans
+ServerAPI.send_command = send_command
