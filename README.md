@@ -14,7 +14,7 @@ from erlcpy import ServerAPI
 
 # Define your API credentials
 base_url = "https://api.policeroleplay.community/v1"
-global_api_key = "your-global-api-key"
+global_api_key = "your-global-api-key" # ( If you don't have one leave blank )
 server_key = "your-server-key"
 
 # Create an instance of ServerAPI with your credentials
@@ -28,7 +28,7 @@ from erlcpy import ServerAPI
 
 # Define your API credentials
 base_url = "https://api.policeroleplay.community/v1"
-global_api_key = "your-global-api-key"
+global_api_key = "your-global-api-key" # ( If you don't have one leave blank )
 server_key = "your-server-key"
 
 # Create an instance of ServerAPI with your credentials
