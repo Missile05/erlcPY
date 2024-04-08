@@ -14,7 +14,7 @@ An Python API wrapper for the ER:LC API.
 - [x] Show Current Vehicles
 
 ## API Coverage:
-We currently cover 100% of the ER:LC API as of (08/04/24).
+We currently cover 100% of the ER:LC API as of April 8th 2024.
 
 ## Installation
 First you need to install the package.
