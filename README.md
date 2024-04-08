@@ -13,8 +13,8 @@ An Python API wrapper for the ER:LC API.
 - [x] Show Banned Players
 - [x] Show Current Vehicles
 
-## API Coverage:
-We currently cover 100% of the ER:LC API as of April 8th 2024.
+> [!IMPORTANT]\
+> Full coverage of the ERLC API as of April 8th 2024.
 
 ## Installation
 First you need to install the package.
