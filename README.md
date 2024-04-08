@@ -1,10 +1,12 @@
 # ER:LC API Wrapper
-A Python API wrapper for the ER:LC API.
+An Python API wrapper for the ER:LC API.
 
 ## Installation
 First you need to install the package.
 
-`pip install erlcpy`
+```
+pip install erlcpy
+```
 
 ### Setup
 Setup is easy:
