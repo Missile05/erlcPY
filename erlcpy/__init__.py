@@ -8,4 +8,5 @@ from .main import send_command
 from .main import get_mod_calls
 from .main import get_bans
 from .main import send_command
+from .main import get_vehicles
 from .main import ServerAPI
