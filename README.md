@@ -23,7 +23,7 @@ First you need to install the package.
 pip install erlcpy
 ```
 
-### Setup
+## Setup
 Setup is easy:
 
 ```python
@@ -58,6 +58,7 @@ except Exception as e:
     print("Failed to fetch queue:", e)
 ```
 
+## Links
 ### [erlcpy PyPi Package](https://pypi.org/project/erlcpy/)
 ### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
 
