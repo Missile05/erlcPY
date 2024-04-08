@@ -41,7 +41,7 @@ api = ServerAPI(base_url, server_key)
 Now you can start using the API - here are some examples:
 
 ```python
-command = "Enter ER:LC command" # :kill, :kick, etc
+command = "erlc_command_here" # :kill, :kick, etc
 try:
     response = api.send_command(command)
     print("Command sent successfully:")
@@ -58,8 +58,9 @@ except Exception as e:
     print("Failed to fetch queue:", e)
 ```
 
-### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
 ### [erlcpy PyPi Package](https://pypi.org/project/erlcpy/)
+### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
+
 
 ### Credits
 Project Lead - [Arimuon](https://discord.com/users/1148923243097497600)
