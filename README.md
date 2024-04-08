@@ -59,8 +59,8 @@ except Exception as e:
 ```
 
 ## Links
-### [erlcpy PyPi Package](https://pypi.org/project/erlcpy/)
-### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
+[erlcpy PyPi Package](https://pypi.org/project/erlcpy/)
+[PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
 
 
 ### Credits
