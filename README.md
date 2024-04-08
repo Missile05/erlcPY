@@ -63,12 +63,11 @@ except Exception as e:
 ### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
 
 
-### Credits
+## Credits
+Project Lead - [Arimuon](https://discord.com/users/1148923243097497600)
 
-### Project Lead - [Arimuon](https://discord.com/users/1148923243097497600)
+Head Developer - [Missile05](https://discord.com/users/591298352344334388)
 
-### Head Developer - [Missile05](https://discord.com/users/591298352344334388)
+Collaborator - [Yodmin](https://discord.com/users/430480677058772992)
 
-### Collaborator - [Yodmin](https://discord.com/users/430480677058772992)
-
-### Documentation Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
+Documentation Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
