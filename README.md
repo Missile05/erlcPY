@@ -3,10 +3,15 @@ An Python API wrapper for the ER:LC API.
 
 ## Capabilities:
 - [x] Run ER:LC Commands Remotely
-- [x] Get Server Player Count
+- [x] Show Server Information
+- [x] Show Current Players
+- [x] Show Join Logs
+- [x] Show Queue Information
+- [x] Show Kill logs
+- [x] Show Command Logs
+- [x] Show Mod Calls
 - [x] Show Banned Players
-- [x] Show Server Info
-- [x] Much more!
+- [x] Show Current Vehicles
 
 ## API Coverage:
 We currently cover 100% of the ER:LC API as of (08/04/24).
