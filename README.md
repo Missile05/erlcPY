@@ -1,5 +1,8 @@
 # ER:LC API Wrapper
-An Python API wrapper for the ER:LC API.
+The first Python API wrapper for the ER:LC API.
+
+> [!IMPORTANT]\
+> Full coverage of the ERLC API as of April 8th 2024.
 
 ## Capabilities:
 - [x] Run ER:LC Commands Remotely
@@ -12,9 +15,6 @@ An Python API wrapper for the ER:LC API.
 - [x] Show Mod Calls
 - [x] Show Banned Players
 - [x] Show Current Vehicles
-
-> [!IMPORTANT]\
-> Full coverage of the ERLC API as of April 8th 2024.
 
 ## Installation
 First you need to install the package.
