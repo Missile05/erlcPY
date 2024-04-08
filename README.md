@@ -2,7 +2,7 @@
 The first Python API wrapper for the ER:LC API.
 
 > [!IMPORTANT]\
-> Full coverage of the ERLC API as of April 8th 2024.
+> Full coverage of the ER:LC API as of April 8th 2024.
 
 ## Capabilities:
 - [x] Run ER:LC Commands Remotely
