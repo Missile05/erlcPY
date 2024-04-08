@@ -1,12 +1,15 @@
 # ER:LC API Wrapper
 An Python API wrapper for the ER:LC API.
 
-Capabilities:
+## Capabilities:
 - [x] Run ER:LC Commands Remotely
 - [x] Get Server Player Count
 - [x] Show Banned Players
 - [x] Show Server Info
 - [x] Much more!
+
+## API Coverage:
+We currently cover 100% of the ER:LC API as of (08/04/24).
 
 ## Installation
 First you need to install the package.
