@@ -10,37 +10,35 @@ First you need to install the package.
 Setup is easy:
 
 ```python
-from erlcpy import ServerAPI
+from erlcpy import ServerAPI # Import Package
 
 # Define your API credentials
-base_url = "https://api.policeroleplay.community/v1"
-global_api_key = "your-global-api-key" # ( If you don't have one leave blank )
-server_key = "your-server-key"
+base_url = "https://api.policeroleplay.community/v1" # Never change this
+server_key = "your_server_key" # API key from a ER:LC server
+global_api_key = "your_global_key" # Remove if unnecessary
 
-# Create an instance of ServerAPI with your credentials
-server = ServerAPI(base_url, global_api_key, server_key)
+# Instantiate the ServerAPI object
+api = ServerAPI(base_url, server_key)
 ```
 
-Now you can start using the API - here are a example:
+Now you can start using the API - here are some examples:
 
 ```python
-from erlcpy import ServerAPI
-
-# Define your API credentials
-base_url = "https://api.policeroleplay.community/v1"
-global_api_key = "your-global-api-key" # ( If you don't have one leave blank )
-server_key = "your-server-key"
-
-# Create an instance of ServerAPI with your credentials
-server = ServerAPI(base_url, global_api_key, server_key)
-
+command = "Enter ER:LC command" # :kill, :kick etc.
 try:
-    # Get server information
-    server_info = server.get_server_info()
-    print("Server Information:", server_info)
-
+    response = api.send_command(command)
+    print("Command sent successfully:")
+    print(response)
 except Exception as e:
-    print("An error occurred:", e)
+    print("Failed to send command:", e)
+```
+```python
+try:
+    queue = api._make_get_request('server/queue')
+    print("Queue:")
+    print(queue)
+except Exception as e:
+    print("Failed to fetch queue:", e)
 ```
 
 ### [PRC API Documentation](https://apidocs.policeroleplay.community/reference/api-reference)
