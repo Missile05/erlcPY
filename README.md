@@ -51,7 +51,7 @@ except Exception as e:
 ```
 ```python
 try:
-    queue = api._make_get_request('server/queue')
+    queue = api.get_queue()
     print("Queue:")
     print(queue)
 except Exception as e:
