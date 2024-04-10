@@ -1,5 +1,6 @@
 # ER:LC API Wrapper
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 The first Python API wrapper for the ER:LC API.
 
 > [!IMPORTANT]\
