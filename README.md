@@ -35,7 +35,7 @@ server_key = "your_server_key" # API key from a ER:LC server
 global_api_key = "your_global_key" # !! Remove if unnecessary !!
 
 # Instantiate the ServerAPI object
-api = ServerAPI(base_url, server_key)
+api = ServerAPI(base_url, server_key) # Add global_api_key if necessary (normally not)
 ```
 
 Now you can start using the API - here are some examples:
