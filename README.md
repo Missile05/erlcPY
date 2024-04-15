@@ -41,7 +41,7 @@ command_api = Command(base_url, server_key) # Add global_api_key if necessary (n
 Now you can start using the API - here are some examples:
 
 ```python
-# Create an instance of ServerAPI with your credentials
+# Create an instance of the Command Class with your credentials
 command_api = Command(base_url, server_key)
 
 # Use the send_command method to send a remote command
