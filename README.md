@@ -27,7 +27,7 @@ pip install erlcpy
 Setup is easy:
 
 ```python
-from erlcpy import ServerAPI # Import Package
+from erlcpy import command
 
 # Define your API credentials
 base_url = "https://api.policeroleplay.community/v1" # !! Never change this !!
@@ -35,27 +35,44 @@ server_key = "your_server_key" # API key from a ER:LC server
 global_api_key = "your_global_key" # !! Remove if unnecessary !!
 
 # Instantiate the ServerAPI object
-api = ServerAPI(base_url, server_key) # Add global_api_key if necessary (normally not)
+command_api = Command(base_url, server_key) # Add global_api_key if necessary (normally not)
 ```
 
 Now you can start using the API - here are some examples:
 
 ```python
-command = "erlc_command_here" # :kill, :kick, etc
+# Create an instance of ServerAPI with your credentials
+command_api = Command(base_url, server_key)
+
+# Use the send_command method to send a remote command
 try:
-    response = api.send_command(command)
-    print("Command sent successfully:")
-    print(response)
+    response = command_api.send_command(":kick missile") #Example
+
+    # Handle the API's Response
+    if response:
+        print(f"Command sent successfully. {response}")
 except Exception as e:
-    print("Failed to send command:", e)
+    # Handle any Errors
+    print(f"An error occurred: {e}")
 ```
 ```python
+# Create an instance of the Information class
+info_api = Information(base_url, server_key) # Add global_api_key if necessary (normally not)
+
 try:
-    queue = api.get_queue()
-    print("Queue:")
-    print(queue)
+    # Use the get_queue method to retrieve the queue information of your server
+    queue_info = info_api.get_queue()
+
+    # Handle the queue information
+    if queue_info:
+        print("Queue information:")
+        print(queue_info)
+        print(f"Queue info: {queue_info}")
+    else:
+        print("Failed to retrieve queue information.")
 except Exception as e:
-    print("Failed to fetch queue:", e)
+    # Print the error message
+    print(f"An error occurred: {e}")
 ```
 
 ## Links
