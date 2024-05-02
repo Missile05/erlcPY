@@ -3,6 +3,7 @@ The first Python API wrapper for the ER:LC API.
 
 > [!IMPORTANT]\
 > Full coverage of the ER:LC API as of April 8th 2024.
+> Automatic dynamic rate limiting system
 
 ## Capabilities:
 - [x] Run ER:LC Commands Remotely
