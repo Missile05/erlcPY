@@ -3,7 +3,6 @@ The first Python API wrapper for the ER:LC API.
 
 > [!IMPORTANT]\
 > Full coverage of the ER:LC API as of April 8th 2024.
-> Automatic dynamic rate limiting system
 
 ## Capabilities:
 - [x] Run ER:LC Commands Remotely
@@ -16,6 +15,8 @@ The first Python API wrapper for the ER:LC API.
 - [x] Show Mod Calls
 - [x] Show Banned Players
 - [x] Show Current Vehicles
+
+- [x] Dynamic Rate Limiting
 
 ## Installation
 First you need to install the package.
