@@ -76,6 +76,24 @@ except Exception as e:
     # Print the error message
     print(f"An error occurred: {e}")
 ```
+### Classes and their methods:
+
+#### `Command`
+- `send_command(command)`
+
+#### `Logs`
+- `get_join_logs()`
+- `get_command_logs()`
+- `get_kill_logs()`
+- `get_bans()`
+- `get_mod_calls()`
+
+#### `Information`
+- `get_server_info()`
+- `get_players()`
+- `get_queue()`
+- `get_vehicles()`
+
 
 ## Links
 ### [erlcPY Package](https://pypi.org/project/erlcpy/)
