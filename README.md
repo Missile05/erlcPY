@@ -89,10 +89,11 @@ except Exception as e:
 - `get_mod_calls()`
 
 #### `Information`
-- `get_server_info()`
-- `get_players()`
-- `get_queue()`
-- `get_vehicles()`
+##### Variable: info_api = Information(base_url, server_key)
+- `info_api.get_server_info()`
+- `info_api.get_players()`
+- `info_api.get_queue()`
+- `info_api.get_vehicles()`
 
 
 ## Links
