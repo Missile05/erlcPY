@@ -78,7 +78,8 @@ except Exception as e:
 ```
 ### Classes and their methods:
 
-#### `Command`
+#### `Remote Commands`
+##### Create an instance ( command_api = Command(base_url, server_key) )
 - `command_api.send_command(command)`
 
 #### `Logs`
@@ -89,7 +90,7 @@ except Exception as e:
 - `get_mod_calls()`
 
 #### `Information`
-##### Variable: info_api = Information(base_url, server_key)
+##### Create an instance ( info_api = Information(base_url, server_key) )
 - `info_api.get_server_info()`
 - `info_api.get_players()`
 - `info_api.get_queue()`
