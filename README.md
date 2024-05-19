@@ -36,8 +36,11 @@ base_url = "https://api.policeroleplay.community/v1" # !! Never change this !!
 server_key = "your_server_key" # API key from a ER:LC server
 global_api_key = "your_global_key" # !! Remove if unnecessary !!
 
-# Instantiate the ServerAPI object
+# Instantiate the objects
+## Create an instance of the Command class to use command related functions
 command_api = Command(base_url, server_key) # Add global_api_key if necessary (normally not)
+## Create an instance of the Information class to use information related functions
+info_api = Information(base_url, server_key) # Add global_api_key if necessary (normally not)
 ```
 
 Now you can start using the API - here are some examples:
