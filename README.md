@@ -79,7 +79,7 @@ except Exception as e:
 ### Classes and their methods:
 
 #### `Command`
-- `send_command(command)`
+- `command_api.send_command(command)`
 
 #### `Logs`
 - `get_join_logs()`
