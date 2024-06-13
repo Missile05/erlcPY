@@ -15,7 +15,6 @@ The first Python API wrapper for the ER:LC API.
 - [x] Show Mod Calls
 - [x] Show Banned Players
 - [x] Show Current Vehicles
-
 - [x] Dynamic Rate Limiting
 
 ## Installation
