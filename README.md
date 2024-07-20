@@ -111,6 +111,6 @@ Head Developer - [Missile05](https://discord.com/users/591298352344334388)
 
 Documentation Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
 
-Documentation/Former Project Lead - [Arimuon](https://discord.com/users/1148923243097497600)
+Documentation / Former Project Lead - [Arimuon](https://discord.com/users/1148923243097497600)
 
 Former Collaborator - [Yodmin](https://discord.com/users/430480677058772992)
