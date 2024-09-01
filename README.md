@@ -1,3 +1,10 @@
+> [!IMPORTANT]\
+> Deprecation notice: This project has been abandoned, however due to no new features being added to the API as of September 1st 2024, should still continue to function.
+
+
+
+
+
 # ER:LC API Wrapper
 The first Python API wrapper for the ER:LC API.
 
