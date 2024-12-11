@@ -1,6 +1,7 @@
 # Deprecation Warning:
 > [!IMPORTANT]\
-> This project has been abandoned by the main developer, however **a new project has been started** by a contributor: https://github.com/Arimuon/LibertyPY
+> This project has been abandoned by the main developer, however **a new project has been started** by a contributor:
+> ## [Link](https://github.com/Arimuon/LibertyPY)
 
 
 ---------
