@@ -1,6 +1,5 @@
 > [!IMPORTANT]\
-> This project has been abandoned, however due to no new features being added to the API as of September 1st 2024, should still continue to function.
-> **New Project:** https://github.com/Arimuon/LibertyPY
+> This project has been abandoned, however a new project has been started: https://github.com/Arimuon/LibertyPY
 
 
 ---------
