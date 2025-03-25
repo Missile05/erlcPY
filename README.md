@@ -1,7 +1,3 @@
-# Deprecation Warning:
-> [!IMPORTANT]\
-> This project has been abandoned by the main developer, however **a [new project](https://github.com/Arimuon/LibertyPY) has been started** by a contributor to maintain this.
-
 ---------
 
 # ER:LC API Wrapper
@@ -113,10 +109,11 @@ except Exception as e:
 
 
 ## Credits
-Head Developer / Project Lead - [Missile05](https://discord.com/users/591298352344334388)
+Project Lead - [Arimuon](https://discord.com/users/1148923243097497600)
+
+Head Developer - [Missile05](https://discord.com/users/591298352344334388)
 
 Documentation Inspiration - [0xRaptor](https://twitter.com/0xRaptorRblx)
 
-Documentation / Former Project Lead - [Arimuon](https://discord.com/users/1148923243097497600)
 
-Former Collaborator - [Yodmin](https://discord.com/users/430480677058772992)
+Collaborator - [Yodmin](https://discord.com/users/430480677058772992)
